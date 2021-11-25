@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+button{
+    padding: 15px 30px;
+    outline: none;
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    line-height: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
