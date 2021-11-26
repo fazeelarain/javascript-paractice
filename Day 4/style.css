@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    width: 330px;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 130px;
+    /* position: relative; */
+    border-radius: 5px;
+}
+
+.pass-show input , .pass-field input{
+    padding: 20px 15px;
+    width: 100%;
+    margin: 5px 0;
+    outline: none;
+    border: 1px solid #8a44ad;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.pass-field{
+    position: relative;
+    
+}
+
+.pass-field span  {
+    color: #8a44ad;
+    position: absolute;
+    top: 33%;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.pass-field input:valid ~ span{
+    display: block;
+}
+.pass-field span i.hide::before{
+    content: "\f070";
+}
